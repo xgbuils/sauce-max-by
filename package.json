@@ -1,0 +1,56 @@
+{
+  "name": "max-by",
+  "version": "0.1.0",
+  "description": "sample tests with karma & travis ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgbuils/karma-max-by"
+  },
+  "keywords": [
+    "karma",
+    "testing",
+    "travis",
+    "sample"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xgbuils/karma-max-by/issues"
+  },
+  "homepage": "https://github.com/xgbuils/karma-max-by",
+  "devDependencies": {
+    "karma": "^0.12.35",
+    "karma-browserify": "^4.2.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-mocha": "^0.1.10",
+    "karma-sauce-launcher": "^0.2.11",
+    "underscore": "^1.8.3"
+  },
+  "saucelabs": {
+    "browsers": {
+      "firefox": ["4", "11", "21", "30", "35"],
+      "chrome": ["26", "31", "39", "40"],
+      "internet explorer": [
+          ["7",  "Windows XP"],
+          "8",
+          ["9",  "Windows 7"],
+          ["10", "Windows 8"], 
+          ["11", "Windows 8.1"]
+      ],
+      "opera": ["11", "12"],
+      "android": ["4.0", "4.3", "4.4", "5"],
+      "safari": [
+        ["8.0", "OS X 10.10"],
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}
